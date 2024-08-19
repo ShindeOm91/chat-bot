@@ -14,6 +14,16 @@ body {
     padding: 20px;
     height: 90vh;
   }
+
+  /* .chat-container {
+    background-image: url('../assets/chatbotback.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%; 
+  } */
+  
   
   .chat-header {
     text-align: center;
@@ -23,6 +33,12 @@ body {
     flex-grow: 1;
     overflow-y: overlay;
     padding: 10px;
+    background-image: url('../assets/chatbotback8.jpg');
+    background-position: center; 
+    position: relative;
+    /* filter: brightness(0.7); */
+    /* animation: zoomBackground 10s infinite; */
+    /* z-index: 2; */
   }
   
   .chat-message {
@@ -59,7 +75,8 @@ body {
     flex-grow: 1;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 30px;
+    background-color: lightgrey;
   }
   
   #send-button {
@@ -74,6 +91,7 @@ body {
   .responses {
     padding-left: 10px;
     padding-top: 10px;
+    font-weight: bold;
   }
   
   .messages {

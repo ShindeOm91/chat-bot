@@ -63,7 +63,7 @@ export class GeminiService {
   private messageHistory: BehaviorSubject<any> = new BehaviorSubject(null);
 
   constructor() {
-    this.generativeAI = new GoogleGenerativeAI('AIzaSyCii8eqomqkkhirJidPxeh_jQ51GqFuRys'); // Replace with your actual key
+    this.generativeAI = new GoogleGenerativeAI('AIzaSyDtleBXkTYXauIU2dg69UwOTxE_KJJc2Xk'); // Replace with your actual key
   }
 
   async generateText(prompt: string) {

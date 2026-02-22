@@ -94,7 +94,7 @@ try {
       console.error('Gemini API Error:', error);
       this.messageHistory.next({
         from: 'bot',
-        message: '"We’re currently performing scheduled maintenance on this project. Please check back soon. Thank you for your understanding! — Omkar Shinde (Developer of this project)'
+        message: '"We’re currently performing scheduled maintenance on this project. Please check back soon. Thank you for your understanding! — Omkar Shinde (Developer)'
       });
   }
 }
